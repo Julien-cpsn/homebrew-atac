@@ -6,10 +6,8 @@ class Atac < Formula
   desc "Simple api client (postman like) in your terminal"
   homepage "https://github.com/Julien-cpsn/ATAC"
   url "https://github.com/Julien-cpsn/ATAC/archive/refs/tags/test_release.tar.gz"
-  sha256 "ff9124557962d5727532cb06b80b319c1dbcbbd04fe5638067084a34229d7b0f"
+  sha256 "6a16ef16bb4ad589060c959c6d6dcfb12b58a4667d942e36e4595818c3e9dbde"
   license "MIT"
-
-  depends_on "bash" => :build
 
   on_macos do
   end
