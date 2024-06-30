@@ -1,7 +1,7 @@
 class Atac < Formula
   desc "A simple API client (postman like) in your terminal"
   homepage "https://github.com/Julien-cpsn/ATAC"
-  version "0.15.1"
+  version "0.16.0"
   license "MIT"
 
   if OS.mac?
