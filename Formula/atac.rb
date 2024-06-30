@@ -5,11 +5,11 @@ class Atac < Formula
   license "MIT"
 
   if OS.mac?
-    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.15.1/atac-v0.15.1-universal-apple-darwin.tar.gz"
-    sha256 "5a4a6369450b47915a08019c59e0859804316e24065f93e720e54fe466d73fb0"
+    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.16.0/atac-v0.16.0-universal-apple-darwin.tar.gz"
+    sha256 "7fd33302b873d17af8430a8e8ff9e56e21934dfc62bd4ab65ccec57e19b01a03"
   elsif OS.linux?
-    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.15.1/atac-v0.15.1-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "a5f045a29f9517ae8109ba06f32fce3259510fb283b25d1e77fa8a68f64021bc"
+    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.16.0/atac-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "aa9fbed451d43abc73f1f578861c08352b2b181a4d7035090a9e274a78c31bc7"
   end
   
   def install
