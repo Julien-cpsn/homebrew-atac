@@ -1,15 +1,15 @@
 class Atac < Formula
   desc "A simple API client (postman like) in your terminal"
   homepage "https://github.com/Julien-cpsn/ATAC"
-  version "0.18.0"
+  version "0.18.1"
   license "MIT"
 
   if OS.mac?
-    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.18.0/atac-v0.18.0-universal-apple-darwin.tar.gz"
-    sha256 "e71767906e55360d3bd830a0650ccd668024acee97200e3584da186c13043bdd"
+    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.18.1/atac-v0.18.1-universal-apple-darwin.tar.gz"
+    sha256 "c8237984800fe8f1e02080ce48594b418734e16acbe1aa52dc7a1f8c0ff7739d"
   elsif OS.linux?
-    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.18.0/atac-v0.18.0-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "404411552e6d4292a74b4e6cd0a406c8728d7ce31b6b5199d594fc62c4d51362"
+    url "https://github.com/Julien-cpsn/ATAC/releases/download/v0.18.1/atac-v0.18.1-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "7cbab1f2d68cbc9ee04eaddda20f93a17b2c982ed18be819a6f2156fa8aadb1f"
   end
   
   def install
